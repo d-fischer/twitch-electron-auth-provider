@@ -1,6 +1,6 @@
 {
   "name": "twitch-electron-auth-provider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib",
   "types": "lib/index",
   "repository": "github:d-fischer/twitch",
