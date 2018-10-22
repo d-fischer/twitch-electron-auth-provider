@@ -1,6 +1,6 @@
 {
   "name": "twitch-electron-auth-provider",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "lint": "tslint --project .",
     "clean": "rimraf lib",
