@@ -1,6 +1,11 @@
 {
   "name": "twitch-electron-auth-provider",
   "version": "0.1.0",
+  "main": "lib",
+  "types": "lib/index",
+  "repository": "github:d-fischer/twitch",
+  "author": "Daniel Fischer <fischer.daniel94@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "lint": "tslint --project .",
     "clean": "rimraf lib",
