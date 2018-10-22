@@ -14,9 +14,26 @@ or using npm:
 
 	npm install twitch-electron-auth-provider
 
-## Documentation
+## Basic usage
 
-Unlike most of the other packages related to `twitch`, there will be a short documentation here. Stay tuned!
+To instantiate a TwitchClient with this auth provider, just pass it to its constructor:
+
+```ts
+import TwitchClient from 'twitch';
+import ElectronAuthProvider from 'twitch-electron-auth-provider';
+
+const clientId = 'abc123';
+const redirectURI = 'http://foo.bar/login';
+
+const client = new TwitchClient({
+	authProvider: new ElectronAuthProvider({
+		clientId,
+		redirectURI
+	})
+});
+```
+
+Please not that this currently only works from the *main thread*.
 
 ## If you're getting stuck...
 
