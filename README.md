@@ -33,7 +33,7 @@ const client = new TwitchClient({
 });
 ```
 
-Please not that this currently only works from the *main thread*.
+Please note that this currently only works from the *main thread*.
 
 ## If you're getting stuck...
 
